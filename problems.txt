@@ -1,0 +1,1 @@
+langchain-community ist eine extension von langchain -> braucht features von langchain 0.2.13, nicht kompatibel mit 0.2.12

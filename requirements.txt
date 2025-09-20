@@ -1,0 +1,26 @@
+# Core LangChain
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-experimental
+
+# HuggingFace endpoint client
+huggingface_hub>=0.23,<0.26
+
+***REMOVED*** as vectordb
+pinecone-client>=2.2,<3.0
+
+# Needed for TfidfRetriever
+scikit-learn>=1.4,<1.6
+numpy>=1.23
+
+# For loading .env files
+dotenv
+
+# For me - Jupyter notebook env
+ipykernel
+jupyterlab
+notebook
+
+# Test LLM models
+langchain-openai 
+openai
