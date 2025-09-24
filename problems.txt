@@ -1,1 +1,5 @@
+Probleme vom originalen Python Skript:
+
 langchain-community ist eine extension von langchain -> braucht features von langchain 0.2.13, nicht kompatibel mit 0.2.12
+-> langchain-community ist outdated - bin umgestiegen auf langchain-core
+nutzung von Text Matching Retrieval QA ineffizient für LLMs -> migration zu VectorDB (Pinecone)
