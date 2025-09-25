@@ -11,9 +11,9 @@ from langchain_google_genai import GoogleGenerativeAI
 
 # Set up Pinecone API key
 os.environ["PINECONE_API_KEY"] = os.getenv("PINECONE_API_KEY") or getpass(
-   "Enter your Pinecone API key: "
+    "Enter your Pinecone API key: "
 )
- 
+
 pinecone_api_key = os.environ["PINECONE_API_KEY"]
 pc = Pinecone(api_key=pinecone_api_key)
 

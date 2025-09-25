@@ -1,0 +1,6 @@
+# OpenAI
+regex:\bsk-[A-Za-z0-9]{40,}\b==>***REMOVED***
+# Pinecone
+regex:\bpcsk_[A-Za-z0-9_-]{40,}\b==>***REMOVED***
+# Google API keys (typical format)
+regex:\bAIza[0-9A-Za-z_\-]{35}\b==>***REMOVED***
